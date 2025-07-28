@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": ".vite",
+    "resolveJsonModule": true,
+    "jsx": "preserve", // Vue 3 JSX
+    "strict": true, // type checking
+    "paths": {
+      "@/*": ["src/*"] // Alias
+    }
+  },
+  "include": ["src/**/*", "forge.env.d.ts", "types/**/*"],
+  "exclude": ["node_modules", "dist", "out", ".vite"]
+}
