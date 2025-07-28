@@ -13,6 +13,17 @@ A **flawless**, modern, and fast Electron application boilerplate using:
 
 ## 🚀 Quick Start
 
+### 📥 Clone the Repository
+
+```bash
+git clone https://github.com/kabledev/flawless-electronforge-vite-vue3-ts.git
+```
+```bash
+cd flawless-electronforge-vite-vue3-ts
+```
+
+Or [download the ZIP](https://github.com/kabledev/flawless-electronforge-vite-vue3-ts/archive/refs/heads/main.zip) and extract it manually.
+
 ### 📦 Install Dependencies
 
 ```bash

@@ -4,8 +4,11 @@ declare module '*.vue' {
   export default component
 }
 
-// Diğer özel modül tanımları
 declare module '*.svg' {
   const content: string
   export default content
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv
 }
