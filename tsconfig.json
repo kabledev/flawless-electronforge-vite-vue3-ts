@@ -9,7 +9,7 @@
     "noImplicitAny": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "outDir": ".vite",
+    "outDir": ".vite/tmp",
     "resolveJsonModule": true,
     "jsx": "preserve", // Vue 3 JSX
     "strict": true, // type checking
@@ -17,6 +17,6 @@
       "@/*": ["src/*"] // Alias
     }
   },
-  "include": ["src/**/*", "forge.env.d.ts", "types/**/*"],
+  "include": ["src/**/*", "src/**/*.vue", "forge.env.d.ts", "types/**/*"],
   "exclude": ["node_modules", "dist", "out", ".vite"]
 }
